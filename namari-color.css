@@ -1,17 +1,6 @@
-/* Namari Landing Page Dynamic Style Index
-
-1. Website Default Styling
-2. Navigation
-3. Primary and Secondary Colors
-4. Banner
-5. Typography
-6. Buttons
-7. Footer
 
 
-/*------------------------------------------------------------------------------------------*/
-/* 1. Website Default Styling */
-/*------------------------------------------------------------------------------------------*/
+
 
 
 body {
@@ -124,7 +113,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/banner.jpg") no-repeat center top;
+    background: url("banner.jpg") no-repeat center top;
     background-size:cover;
 }
 
