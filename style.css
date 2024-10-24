@@ -2327,5 +2327,75 @@ blockquote {
 }
 
 
+/* cookies section */
+
+#cookieConsent {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 1000;
+}
+
+#cookieConsent button {
+    background: #f1d600;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#cookieConsent button:hover {
+    background: #e6c200;
+}
+
+
+/* news modoul */
+
+  /* Modal Styles */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    backdrop-filter: blur(15px);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+  
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 
